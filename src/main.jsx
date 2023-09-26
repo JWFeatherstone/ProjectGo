@@ -1,10 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import { CssBaseline } from "@mui/material";
+import { BrowserRouter } from 'react-router-dom'
+import {
+  RecoilRoot
+} from 'recoil'
 import './index.css'
+import { ThemeProvider } from './theme/index'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RecoilRoot>
+      <ThemeProvider>
+        <BrowserRouter>
+            <CssBaseline />
+            <App />
+        </BrowserRouter>
+      </ThemeProvider>
+    </RecoilRoot>
   </React.StrictMode>,
 )

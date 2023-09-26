@@ -1,0 +1,41 @@
+.hero-section {
+  display: flex;
+  padding: 35vh 0;
+  margin-left: none !important;
+}
+
+.hero-text {
+  margin-left: none !important;
+}
+
+.typewriter-wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.typewriter {
+  font-weight: 200 !important;
+  font-family: "JetBrains Mono" !important;
+  line-height: 48px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .typewriter-wrapper {
+    display: none !important;
+  }
+
+  .hero-text {
+    width: 100% !important;
+  }
+
+  .hero-section {
+    padding: 20vh 0 !important;
+  }
+
+  .hero-sub, .hero-header, .hero-buttons {
+    padding: 15px 0;
+  }
+  
+}
