@@ -1,0 +1,37 @@
+.browser-section {
+  padding: 50px 0 !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.browser-panel {
+  border: 1px solid #eaeaea;
+  margin-left: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body-text {
+  padding: 0 1.5rem;
+}
+
+.chip-bar {
+  padding: 0.5rem 1.5rem;
+}
+
+.browser-divider {
+  margin: 0.5rem 0 2rem 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.divider-content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

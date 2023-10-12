@@ -1,0 +1,29 @@
+.about-subtext {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  .about-subtext, .about-text {
+    align-items: center !important;
+    justify-content: center;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .about-subtext {
+    margin-top: 20px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 0 !important;
+  }
+
+  .about-header {
+    width: 100%;
+  }
+}

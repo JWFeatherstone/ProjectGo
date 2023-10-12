@@ -12,7 +12,13 @@ export const components = (palette) => ({
       },
     },
   },
-
+  MuiAppBar: {
+    styleOverrides: {
+      root: {
+        backgroundColor: "transparent",
+      },
+    },
+  },
   MuiButtonGroup: {
     styleOverrides: {
       root: {

@@ -4,4 +4,7 @@ import react from '@vitejs/plugin-react'
 // Export the Vite configuration
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    include: ['@mui/material/Tooltip'],
+  },
 });

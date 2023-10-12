@@ -16,8 +16,7 @@ const AppToolbar = () => {
 
   return (
     <AppBar
-    sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, padding: "0 24px"}}
-    color="transparent"
+    sx={{ zIndex: (theme) => theme.zIndex.drawer + 1, padding: "0 24px", mb: 2}}
     elevation={1}
     >
       <Toolbar>

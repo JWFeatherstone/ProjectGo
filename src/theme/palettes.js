@@ -2,23 +2,25 @@ export const light = {
   mode: "light",
 
   primary: {
-    main: "#4ea686",
+    main: "#01d0a3",
   },
 
   background: {
-    default: "#f8fcfa",
+    default: "#f5f5f7",
+    primary: "#E1FFF8",
+    paper: "#fbfbfd"
   },
 
   secondary: {
-    main: "#d6ebe3",
+    main: "#F0D9C7",
   },
 
   text: {
-    primary: "#131010",
+    primary: "#001f17",
   },
 
   accent: {
-    primary: "#4d846f",
+    primary: "#d03556",
   },
 
   example: {
@@ -31,19 +33,21 @@ export const dark = {
   mode: "dark",
 
   primary: {
-    main: "#2FFED1",
+    main: "#02b38a",
   },
 
   background: {
-    default: "#002920",
+    default: "#012920",
+    primary: "#E1FFF8",
+    paper: "#1b1d1f"
   },
 
   secondary: {
-    main: "#004C3C",
+    main: "#02251e",
   },
 
   text: {
-    primary: "#E1FFF8",
+    primary: "#e6e6e6",
   },
 
   accent: {

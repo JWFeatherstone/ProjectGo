@@ -11,11 +11,12 @@ const Logo = (props) => {
         alignItems: "center",
         fontSize: "1.5rem",
         fontWeight: 500,
+        fontFamily: "JetBrains Mono",
       }}
       variant="h2"
       {...other}
     >
-      GoProject_
+      CoProject_
     </Typography>
   );
 }

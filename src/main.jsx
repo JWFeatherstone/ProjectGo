@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './routes/App.jsx'
 import { CssBaseline } from "@mui/material";
+import '@mui/material/styles'
+import '@mui/material'
+import '@mui/joy'
 import { BrowserRouter } from 'react-router-dom'
 import {
   RecoilRoot

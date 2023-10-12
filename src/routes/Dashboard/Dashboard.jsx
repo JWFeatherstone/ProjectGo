@@ -1,11 +1,14 @@
 import { Box, Button, Container, Typography } from '@mui/material';
 import './Dashboard.css';
 import ReactTyped from 'react-typed';
+import { useRecoilValue } from 'recoil';
+import { ThemeName } from '../../theme';
 
 const Dashboard = () => {
+  const theme = useRecoilValue(ThemeName);
   return (
     <main className="hero-section">
-      <Container sx={{ width: "60%", alignSelf: "left"}} className="hero-text">
+      <Container sx={{ width: "60%", alignSelf: "left", margin: "0"}} className="hero-text">
         <Typography sx={{ mb: 2 }} variant="h1" align="left" className="hero-header">
           A platform for the tech community's personal projects
         </Typography>
@@ -22,16 +25,16 @@ const Dashboard = () => {
           className="hero-buttons"
         >
           <Button
-            variant="outlined"
+            variant={theme === "dark" ? "outlined" : "contained"}
             sx={{ width: "100%", maxWidth: "30rem" }}
-            href={`/api`}
+            href={`/register`}
           >
             Get Started
           </Button>
           <Button
-            variant="outlined"
+            variant={theme === "dark" ? "outlined" : "contained"}
             sx={{ width: "100%", maxWidth: "30rem" }}
-            href={`/api`}
+            href={`/about`}
           >
             What's this about?
           </Button>

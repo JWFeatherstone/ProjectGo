@@ -1,12 +1,14 @@
-import { Toolbar } from "@mui/material";
 import { Suspense } from "react";
-import { Outlet } from "react-router-dom";
 import AppToolbar from "./components/AppToolbar/AppToolbar";
+import { Toolbar } from "@mui/material";
+import { Container } from "@mui/material";
 
-const AppLayout = ({ children } ) => {
+const AppLayout = ({ children} ) => {
+
   return (
     <>
       <AppToolbar />
+      <Toolbar />
       <Suspense>
           {children}
       </Suspense>
