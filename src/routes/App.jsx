@@ -13,7 +13,7 @@ function App() {
   return (
     <AppLayout>
       <Routes>
-        <Route path="" element={<Map />} />
+        <Route path="" element={<Dashboard />} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Login/>} />
         <Route path="/about" element={<About/>} />
